@@ -13,12 +13,23 @@ This open-source version supports the following annotation tasks:
 7) Audio Segmentation
 8) Video Classification
 
+This is the app architecture for tika-work
+
+![twf](https://github.com/annosmart/tika-work/assets/111358517/a99b1840-a0c6-4893-91d3-c77b007ac413)
+
+## Source code structure
+
+The directory structure of the repository is:
+
+* deployment - docker source file
+* doc - tool description, tutorials for creating new modules for tika-work tool
+* tool - source code
 
 ## Building instructions for Docker, Windows, Mac platforms
 
 ### Docker
 
-## Install docker
+#### Install docker
 The steps below are for Ubuntu
 ```
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
@@ -31,7 +42,7 @@ sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io
 ```
 
-## Build docker image
+#### Build docker image
 ```
 run from root folder
 ```
@@ -39,18 +50,24 @@ run from root folder
 sudo docker build -f ./deployment/docker/Dockerfile -t tika-work .
 ```
 
-## Run docker image
+#### Run docker image
 ```
 sudo docker run -d -p 3001:3000 tika-work
 ```
 
 ### Windows 
-a) npm i electron-is-dev
-b) npm i --force -D concurrently electron electron-builder wait-on cross-env
+```
+npm i electron-is-dev
+npm i --force -D concurrently electron electron-builder wait-on cross-env
+```
 **if you get any error for above command, then delete .bin folder in node_modules folder and rerun the above command
-c) npm run electron-pack --force
+```
+npm run electron-pack --force
+```
 
 ### Mac
-a) npm i electron-is-dev
-b) npm i -D concurrently electron electron-builder wait-on cross-env
-c) npm run electron-pack
+```
+npm i electron-is-dev
+npm i -D concurrently electron electron-builder wait-on cross-env
+npm run electron-pack
+```
