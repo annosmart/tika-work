@@ -1,0 +1,33 @@
+.react-contexify__separator {
+  background-color: #444444;
+}
+
+.react-contexify__submenu--is-open,
+.react-contexify__submenu--is-open > .react-contexify__item__content {
+  &.extra-data {
+    background-color: #EEEEEE;
+  }
+  color: #FFFFFF;
+  background-color: #444444;
+}
+
+.react-contexify__item {
+  &.extra-data {
+    background-color: #EEEEEE;
+  }
+
+  &:not(.react-contexify__item--disabled):hover > .react-contexify__item__content,
+  &:not(.react-contexify__item--disabled):focus > .react-contexify__item__content {
+    color: #FFFFFF;
+    background-color: #444444;
+  }
+
+  &__content {
+    color: #444444;
+  }
+}
+
+.react-contexify__separator {
+  margin: 0;
+  height: 2px;
+}

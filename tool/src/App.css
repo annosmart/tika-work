@@ -1,0 +1,57 @@
+a {
+    text-decoration: none !important;
+}
+
+.react-contexify.react-contexify__will-enter--scale.flat {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+/* .react-contexify__submenu {
+   max-height: 300px;
+   overflow-y: auto;
+   overflow-x: visible;
+} */
+
+.react-contexify__item {
+    min-width: 120px;
+}
+
+.black-toggle.react-toggle .react-toggle-track,
+.black-toggle.react-toggle--checked .react-toggle-track {
+    background-color: #000000;
+}
+
+.black-toggle.react-toggle--checked .react-toggle-thumb {
+    border-color: #888888;
+}
+
+.black-toggle.react-toggle--checked:hover:not(.react-toggle--disabled) .react-toggle-track {
+    background-color: #000000;
+}
+
+.react-toggle.small .react-toggle-track {
+    width: 46px;
+    height: 20px;
+}
+
+.react-toggle.small .react-toggle-thumb {
+    width: 18px;
+    height: 18px;
+}
+
+.react-tagsinput-tag {
+    background-color: #000000 !important;
+    border-radius: 4px !important;
+    border: 1px solid #FFFFFF !important;
+    color: #FFFFFF !important;
+    padding: 4px;
+}
+
+.react-tagsinput-tag a {
+    color: #FFFFFF !important;
+}
+
+input.react-tagsinput-input {
+    color: #000000;
+}
