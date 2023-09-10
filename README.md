@@ -13,6 +13,14 @@ This open-source version supports the following annotation tasks:
 7) Audio Segmentation
 8) Video Classification
 
+This is the app architecture for tika-work
+
+![twf](https://github.com/annosmart/tika-work/assets/111358517/a99b1840-a0c6-4893-91d3-c77b007ac413)
+
+The directory structure of the repository is:
+deployment - docker source file
+doc - tool description, tutorials for creating new modules for tika-work tool
+tool - source code
 
 ## Building instructions for Docker, Windows, Mac platforms
 
