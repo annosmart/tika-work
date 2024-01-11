@@ -2,6 +2,8 @@
 
 tika-work is designed as a lightweight, modular open-source software that can support data annotations in computer vision and NLP domains. It is released as a web-app as well as for multiple plaforms like Mac OS and Microsoft Windows. tika-work is built as a pure javascript application, more specifically reactjs. This allows it to be truly portable by being entirely based in the web browser. 
 
+Demo link https://demo.tika-work.com
+
 This open-source version supports the following annotation tasks:
 
 1) Image Classification
